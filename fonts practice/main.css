@@ -1,0 +1,162 @@
+/* html5 base */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+header, section, footer, aside, nav, article {
+  display: block;
+  }
+body {
+  font-family: 'fff_tusjbold';
+  font-size: 100%;
+  line-height: 1.5em;
+  color: #333;
+  }
+.container {
+  width: 90%;
+  padding: .5em;
+  margin: 2em auto;
+  }
+h1, h2, h3, h4, h5, h6 {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+h1 {
+  font-size: 3em; /* 48px / 16px = 3em */
+  line-height: 1em; 
+  }
+h2 {
+  font-size: 2.25em; /* 36px / 16px = 2.25em */
+  line-height: 1.1em;
+  }
+h3 {
+  font-size: 1.5em; /* 24px / 16px = 1.5em */
+  line-height: 1.2em;
+  }
+h4 {
+  font-size: 1.3125em; /* 21px / 16px = 1.3125em */
+  line-height: 1.3em;
+  }
+h5 {
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.4em;
+  }
+h6 {
+  font-size: 1em; /* 16px / 16px = 1em */
+  line-height: 1.5em;
+  }
+a {
+  color: #B862EE;
+  }
+li {
+  margin-left: 2em;
+  }
+ul li ul, ul li ol, ol li ul, ol li ol {
+  margin: 0;
+  }
+em {
+  font-family: "Lobster", "Comic Sans", cursive;
+  color: #B862EE;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+  }
+/* PARAGRAPHS
+===================================== */
+p {
+  margin-bottom: .5em;
+  }
+/* LINKS
+===================================== */
+a {
+  color: #BC0FEE;
+  text-decoration: none;
+  }
+a:hover {
+  font-weight: bold;
+  color: #E17C22;
+  font-variant: small-caps;
+  }
+/* LISTS
+===================================== */
+ul, ol, li{
+  margin-bottom: .5em;
+  }
+/* MAIN CONTENT
+===================================== */
+body {
+  background: #999;
+  }
+.container {
+  background: #fff;
+  }
+nav ul li {
+  list-style: none;
+}
+  
+/* #FORM DESIGN
+===================================== */
+fieldset{
+  border: 1px solid #888;
+  border-radius: 6px;
+  padding: 20px 50px;
+  max-width: 600px;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 2px;
+}
+legend {
+  color: #98ca5d;
+}
+input{
+  color: #999;
+  background: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  margin-bottom: 5px; 
+  border: 5px solid #98ca5d;
+}
+textarea {
+  color: #999;
+  padding: 5px;
+  border: 5px solid #98ca5d;
+  border-radius: 6px;
+  margin-bottom: 5px; 
+  width: 300px;
+  height: 100px;
+  }
+
+  
+/* #MEDIA QUERIES
+===================================== */
+
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 48em) and (max-width: 62em) {  
+body {
+  font-size: 93.75%; /* 15px */
+  }
+.container {
+    width: 80%;
+    margin: 4%;
+    padding: 6%;
+    }
+  }
+/* MOBILE (Smaller than 768px)*/
+@media only screen and (max-width: 47.9999em) {   
+  body {
+    font-size: 87.5%; /* 14px */
+    }
+  .container {
+    width: 84%;
+    margin: 3%;
+    padding: 5%;
+    }
+  }
+  
+/* #FONT-FACE
+===================================== */   
+@font-face {
+  font-family: "Lobster";
+  src: local("Lobster"), url("lobster.woff") format("woff");
+  }
+
