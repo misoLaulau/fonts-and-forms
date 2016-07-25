@@ -106,8 +106,14 @@ fieldset{
   letter-spacing: 2px;
 }
 legend {
-  color: #98ca5d;
+  font-size: x-large;
 }
+label {
+  float:left;
+  text-align: left;
+  margin-right: 15px;
+  width: 100%;
+  }
 input{
   color: #999;
   background: #fff;
